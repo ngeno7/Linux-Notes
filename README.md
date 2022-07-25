@@ -17,7 +17,7 @@ Action Field:
 LogRotate: - Compress, remove or mail log files.
 
 ## Disk management
--**Partitions:**
+- **Partitions:**
   - Allow you to separate data.
   - Can protect the whole system.
   -
@@ -42,7 +42,11 @@ LogRotate: - Compress, remove or mail log files.
 - **fdisk:** tool used for partitioning disks.
   Alternatives: gdisk, parted.
 - **File Systems**:
-   *EXT (Extended File System)* was made specifically for linux.
+   - *EXT (Extended File System)* was made specifically for linux.
+   - e.g ext1, ext2, ext3 etc.
+   - Others: ReiserFS, JFS, XFS, ZFS, Btrfs
+   - Command: *mkfs -t TYPE DEVICE*
+   - 
    
    
 
