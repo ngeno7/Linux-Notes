@@ -24,6 +24,17 @@ LogRotate: - Compress, remove or mail log files.
 - MBR: master boot record; supports up to 2TB of storage.
   - It is the boot sector at the beginning of a storage device.
   - It is being phased out by GPT (GUID Partition Table)
-  - 4 Primary partitions
+  - allow upto 4 Primary partitions
   - Extended partitions allow you to create logical partitions.
+
+- GPT: GUID Partition Table - ( GUID: Global Unique Identifier )
+  - Replaces MBR partitioning system.
+  - Part of UEFI (Unified Extensible Firmware Interface).
+  - UEFI is replacing BIOS.
+  - Supports up to 128 partitions.
+  - support up to 9.4 ZB disk sizes.
+  - not supported by older OS'es
+  - May require newer or special tools
+
+
   
