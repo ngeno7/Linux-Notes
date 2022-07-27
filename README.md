@@ -1,6 +1,6 @@
 ## Linux Notes
 
-![linux](https://user-images.githubusercontent.com/9430676/181217374-9419762c-d0d7-4ae7-989f-b2db52341ca7.png)
+![linux](https://user-images.githubusercontent.com/9430676/181217374-9419762c-d0d7-4ae7-989f-b2db52341ca7.png){ height: 200px; }
 
 ### System Logs
 
