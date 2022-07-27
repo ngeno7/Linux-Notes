@@ -84,13 +84,16 @@ LogRotate: - Compress, remove or mail log files.
         - *-n* option skips translating the ip to domain name
         - **traceroute** shows the path a packet takes to the destination
      - **netstat** used to display different network information
-        -  -n numeric addresses and ports
-        -  -i list of network interfaces
-        -  -r the route table (netstat -rn)
-        -  -p PID and program used
-        -  -l listening sockets
-        -  -t limit the output to TCP (netstat -ntlp)
-        -  -u limit the output to UDP (netstat -nulp)
+        -  *-n* numeric addresses and ports
+        -  *-i* list of network interfaces
+        -  *-r* the route table (netstat -rn)
+        -  *-p* PID and program used
+        -  *-l* listening sockets
+        -  *-t* limit the output to TCP (netstat -ntlp)
+        -  *-u* limit the output to UDP (netstat -nulp)
     - Packet sniffing with **tcpdump**
-      - tcpdump
-        - 
+        - tcpdump
+        -  *-n* display numeric addresses and ports
+        -  *-A* display ASCII(text) output
+        -  *-v* Verbose mode. produce more output
+        -  *-vvv* Even more verbose output.
