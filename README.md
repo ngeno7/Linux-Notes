@@ -58,8 +58,8 @@ LogRotate: - Compress, remove or mail log files.
 - **Private Address Space**
 - **Determining your IP Address
     - Command:
-      i) *ip address / ip a / ip address show / ip a s*
-      ii) *ifconfig*
+        - *ip address / ip a / ip address show / ip a s*
+        - *ifconfig*
  - DNS Hostnames
     - DNS: Translate ip address to human readable domain name and vice versa.
     - FQDN = Fully qualified domain name
@@ -68,8 +68,15 @@ LogRotate: - Compress, remove or mail log files.
     
  - Network Ports
     - When a service starts it binds itself to a port.
-        - Examples of ports: 1-1, 023 are well known ports.
-            - 22 SSH, 25 SMTP, 80 HTTP, 143 IMAP, 389 LDAP, 443 HTTPS.
-    
-  
+        - Examples of ports: *1-1, 023* are well known ports.
+            - *22 SSH, 25 SMTP, 80 HTTP, 143 IMAP, 389 LDAP, 443 HTTPS*.
+ - DHCP
+    - Dynamic Host Configuration Protocol
+    - Assign IP to clients. IP Netmask, gateway, DNS Servers.
+
+- Network Troubleshooting
+    - Test For Connectivity using ping command
+        - *ping HOST / ping -c COUNT HOST*
+        - Ping tests the endpoint but does not show the route the packets take.
+        - *traceroute -n google.com*
   
