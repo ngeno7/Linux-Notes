@@ -82,7 +82,7 @@ LogRotate: - Compress, remove or mail log files.
         - Ping tests the endpoint but does not show the route the packets take.
         - *traceroute -n google.com* 
         - *-n* option skips translating the ip to domain name
-        - **traceroute** shows the path a packet takes to the destination
+        - **traceroute** / **tracepath** shows the path a packet takes to the destination
      - **netstat** used to display different network information
         -  *-n* numeric addresses and ports
         -  *-i* list of network interfaces
