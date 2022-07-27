@@ -104,5 +104,39 @@ LogRotate: - Compress, remove or mail log files.
       - programs that require include: ping , chsh
       - add setUID command: *chmod u+s FILE* / *chmod 4755 FILE*
       - Remove setUID command: *chmod u-s FILE* / *chmod 0755 FILE*
-      - 
+      - Find setuid files: *find / -perm /4000 -ls*
 
+    - setgid:
+      - setgid = Set Group ID upon execution
+      - add setgid
+        - *chmod ug+s FILE*
+        - *chmod 6755 FILE*
+
+       - Remove setgid
+          - *chmod g-s FILE*
+          - *chmod 0755 FILE*
+      - Setgid on a directory causes new files to inherit the group of the directory
+      - setgid causes  directories to inherit the setgid bit.
+      - Is not retroactive
+      - Great for working with groups.
+
+    - Integrity checker
+        - find
+        - tripwire
+        - AIDE (Advanced Intrusion Detection Environment)
+        - OSSEC
+        - Samhain
+        - Package managers
+    - The sticky bit
+        - used on a directory to only allow the owner of the file/directory to delete it.
+        - used on /tmp
+        - Add command:
+            - chmod o+t FILE
+            - chmod 1777 FILE
+        - Remove command:
+            - chmod o-t FILE
+            - chmod 0777 FILE
+
+    - Reading the *ls* output
+        - A capitalized special permission means the underlying permission is not set.
+        - A lowercase special permission means the underlying normal permission is set.
