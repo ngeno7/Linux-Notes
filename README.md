@@ -46,11 +46,28 @@ LogRotate: - Compress, remove or mail log files.
    - e.g ext1, ext2, ext3 etc.
    - Others: ReiserFS, JFS, XFS, ZFS, Btrfs
    - Command: *mkfs -t TYPE DEVICE*
-   - 
-   
-   
+    
 #### TODO: Disk management
 #### TODO: User and group management
+## Networking
+- **TCP/IP**
+- **Classful networks**
+    - A, B and C.
+    - IP, subnet mask, Broadcast address.
+- **Classless Inter-Domain Routing/CIDR**
+- **Private Address Space**
+- **Determining your IP Address
+    - Command:
+      i) *ip address / ip a / ip address show / ip a s*
+      ii) *ifconfig*
+ - DNS Hostnames
+    - DNS: Translate ip address to human readable domain name and vice versa.
+    - FQDN = Fully qualified domain name
+    - TLD = Top level domain e.g .com, .net, .org
+    Resolve domain name using the: *host* and *dig* command
+    
+    
 
-
+    
+  
   
