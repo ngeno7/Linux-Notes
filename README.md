@@ -92,7 +92,7 @@ LogRotate: - Compress, remove or mail log files.
         -  *-t* limit the output to TCP (netstat -ntlp)
         -  *-u* limit the output to UDP (netstat -nulp)
     - Packet sniffing with **tcpdump**
-        - tcpdump
+        - *tcpdump*
         -  *-n* display numeric addresses and ports
         -  *-A* display ASCII(text) output
         -  *-v* Verbose mode. produce more output
