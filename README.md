@@ -58,7 +58,7 @@ LogRotate: - Compress, remove or mail log files.
     - IP, subnet mask, Broadcast address.
 - **Classless Inter-Domain Routing/CIDR**
 - **Private Address Space**
-- **Determining your IP Address
+- Determining your IP Address
     - Command:
         - *ip address / ip a / ip address show / ip a s*
         - *ifconfig*
