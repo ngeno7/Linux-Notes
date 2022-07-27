@@ -1,5 +1,7 @@
 ## Linux Notes
 
+![linux](https://user-images.githubusercontent.com/9430676/181217374-9419762c-d0d7-4ae7-989f-b2db52341ca7.png)
+
 ### System Logs
 
 Help us to know what is going on different processes, to assist in knowing the health of processes.
@@ -89,4 +91,6 @@ LogRotate: - Compress, remove or mail log files.
         -  -l listening sockets
         -  -t limit the output to TCP (netstat -ntlp)
         -  -u limit the output to UDP (netstat -nulp)
-  
+    - Packet sniffing with **tcpdump**
+      - tcpdump
+        - 
