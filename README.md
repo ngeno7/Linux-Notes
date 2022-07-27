@@ -64,10 +64,12 @@ LogRotate: - Compress, remove or mail log files.
     - DNS: Translate ip address to human readable domain name and vice versa.
     - FQDN = Fully qualified domain name
     - TLD = Top level domain e.g .com, .net, .org
-    Resolve domain name using the: *host* and *dig* command
+    - Resolve domain name using the: *host* and *dig* command
     
-    
-
+ - Network Ports
+    - When a service starts it binds itself to a port.
+        - Examples of ports: 1-1, 023 are well known ports.
+            - 22 SSH, 25 SMTP, 80 HTTP, 143 IMAP, 389 LDAP, 443 HTTPS.
     
   
   
