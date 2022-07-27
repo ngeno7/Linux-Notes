@@ -63,7 +63,7 @@ LogRotate: - Compress, remove or mail log files.
         - *ip address / ip a / ip address show / ip a s*
         - *ifconfig*
  - DNS Hostnames
-    - DNS: Translate ip address to human readable domain name and vice versa.
+    - DNS: to translate human-readable names into IP addresses
     - FQDN = Fully qualified domain name
     - TLD = Top level domain e.g .com, .net, .org
     - Resolve domain name using the: *host* and *dig* command
