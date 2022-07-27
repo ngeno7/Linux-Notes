@@ -95,4 +95,14 @@ LogRotate: - Compress, remove or mail log files.
         -  *-n* display numeric addresses and ports
         -  *-A* display ASCII(text) output
         -  *-v* Verbose mode. produce more output
-        -  *-vvv* Even more verbose output.
+        -  *-vvv* Even more verbose output
+## Advanced Linux Permissions
+  - Special Modes
+    - Setuid:
+      - When a process is started, it runs using the starting user's UID and GID
+      - setuid = Set User ID upon execution
+      - programs that require include: ping , chsh
+      - add setUID command: *chmod u+s FILE* / *chmod 4755 FILE*
+      - Remove setUID command: *chmod u-s FILE* / *chmod 0755 FILE*
+      - 
+
