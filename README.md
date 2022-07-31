@@ -140,3 +140,7 @@ LogRotate: - Compress, remove or mail log files.
     - Reading the *ls* output
         - A capitalized special permission means the underlying permission is not set.
         - A lowercase special permission means the underlying normal permission is set.
+        
+ ## Command line tips
+  - to use the last item on the command line use: '!$'
+  - 
