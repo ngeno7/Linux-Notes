@@ -17,7 +17,7 @@ Action Field:
   > logger [options] message (-p FACILITY.SERVERITY -t TAG)
 
 LogRotate: - Compress, remove or mail log files.
-
+---
 ## Disk management
 - **Partitions:**
   - Allow you to separate data.
@@ -47,9 +47,11 @@ LogRotate: - Compress, remove or mail log files.
    - e.g ext1, ext2, ext3 etc.
    - Others: ReiserFS, JFS, XFS, ZFS, Btrfs
    - Command: *mkfs -t TYPE DEVICE*
-    
+---
 #### TODO: Disk management
+---
 #### TODO: User and group management
+---
 ## Networking
 - **TCP/IP**
 - **Classful networks**
@@ -96,6 +98,7 @@ LogRotate: - Compress, remove or mail log files.
         -  *-A* display ASCII(text) output
         -  *-v* Verbose mode. produce more output
         -  *-vvv* Even more verbose output
+---
 ## Advanced Linux Permissions
   - Special Modes
     - Setuid:
@@ -140,7 +143,7 @@ LogRotate: - Compress, remove or mail log files.
     - Reading the *ls* output
         - A capitalized special permission means the underlying permission is not set.
         - A lowercase special permission means the underlying normal permission is set.
-        
+--- 
  ## Command line tips
   - to use the last item on the command line use: '!$'
   - 
