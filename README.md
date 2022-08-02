@@ -15,7 +15,7 @@ Action Field:
  - Determine how the message is processed.
 
   >logger [options] message (-p FACILITY.SERVERITY -t TAG)
-  >LogRotate: - Compress, remove or mail log files.
+>LogRotate: - Compress, remove or mail log files.
 
 ---
 ## Disk management
