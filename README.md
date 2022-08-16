@@ -1,3 +1,4 @@
+[AWS Global Infrastructure1.pdf](https://github.com/ngeno7/Linux-Notes/files/9354565/AWS.Global.Infrastructure1.pdf)
 ## Linux Notes
 
 ![linux](https://user-images.githubusercontent.com/9430676/181217374-9419762c-d0d7-4ae7-989f-b2db52341ca7.png)
@@ -147,3 +148,4 @@ Action Field:
  ## Command line tips
   - to use the last item on the command line use: '!$'
   - 
+[AWS Global Infrastructure1.pdf](https://github.com/ngeno7/Linux-Notes/files/9354569/AWS.Global.Infrastructure1.pdf)
