@@ -150,8 +150,9 @@ Action Field:
   - 
 [AWS Global Infrastructure1.pdf](https://github.com/ngeno7/Linux-Notes/files/9354569/AWS.Global.Infrastructure1.pdf)
 
-###First Bash 
+### First Bash 
 
+```bash
 #!/bin/bash
 
 echo "Coping databases"
@@ -178,3 +179,4 @@ fi
          echo "Error occurred while backing up the data :("
      fi
 
+```
