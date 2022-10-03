@@ -149,3 +149,32 @@ Action Field:
   - to use the last item on the command line use: '!$'
   - 
 [AWS Global Infrastructure1.pdf](https://github.com/ngeno7/Linux-Notes/files/9354569/AWS.Global.Infrastructure1.pdf)
+
+###First Bash 
+
+#!/bin/bash
+
+echo "Coping databases"
+month=$(date +%b)
+year=$(date +%Y)
+
+if [ ! -d /root/website-backup/${year} ]
+then
+     echo "Creating ${year} folder..."
+     mkdir /root/website-backup/${year}
+fi
+     echo "creating month folder..."
+     if [ ! -d /root/website-backup/${year}/${month} ]
+      then
+        mkdir /root/website-backup/${year}/${month}
+     fi
+     echo "copying the backups from the server..."
+     sshpass -p $1 scp root@64.91.224.35:/root/testcopy.txt /root/website-backup/${year}/{month}
+     #sshpass -p $1 scp -r root@64.91.224.35:/mnt/sbs1/website/ /root/website-backup/${year}/{month}
+     if [ $? == 0 ]
+      then
+         echo "Backups have been copied :)"
+     else
+         echo "Error occurred while backing up the data :("
+     fi
+
