@@ -170,8 +170,8 @@ fi
         mkdir /root/website-backup/${year}/${month}
      fi
      echo "copying the backups from the server..."
-     sshpass -p $1 scp root@64.91.224.35:/root/testcopy.txt /root/website-backup/${year}/{month}
-     #sshpass -p $1 scp -r root@64.91.224.35:/mnt/sbs1/website/ /root/website-backup/${year}/{month}
+     sshpass -p $1 scp root@[IP]:/root/testcopy.txt /root/website-backup/${year}/{month}
+     #sshpass -p $1 scp -r root@[IP]:/mnt/sbs1/website/ /root/website-backup/${year}/{month}
      if [ $? == 0 ]
       then
          echo "Backups have been copied :)"
