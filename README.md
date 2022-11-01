@@ -1,8 +1,6 @@
 [AWS Global Infrastructure1.pdf](https://github.com/ngeno7/Linux-Notes/files/9354565/AWS.Global.Infrastructure1.pdf)
 ## Linux Notes
 
-![linux](https://user-images.githubusercontent.com/9430676/181217374-9419762c-d0d7-4ae7-989f-b2db52341ca7.png)
-
 ### System Logs
 
 Help us to know what is going on different processes, to assist in knowing the health of processes.
